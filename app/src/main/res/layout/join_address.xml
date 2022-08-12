@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/join3"
+            android:text="&lt;"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textSize="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <TextView
+            android:gravity="center"
+            android:text="4/6"
+            android:textSize="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></TextView>
+        <Button
+            android:id="@+id/join5"
+            android:text="&gt;"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textSize="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:layout_weight="1"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@color/colorPrimary"
+        >
+        <EditText
+            android:id="@+id/joinAddress"
+            android:textSize="40dp"
+            android:hint="수원시 구갈동 신진 5027호 2001호"
+            android:layout_margin="15dp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"></EditText>
+
+    </LinearLayout>
+
+</LinearLayout>

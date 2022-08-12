@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Pop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center">
+        <TextView
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="내 정보 보기"
+            android:padding="3dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:textStyle="bold"></TextView>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textUserID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="이름 : 박성아"
+                android:padding="3dp"/>
+            <TextView
+                android:id="@+id/textUserPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="전화번호 : 010-8888-5014"
+                android:padding="3dp"/>
+            <TextView
+                android:id="@+id/textUserBirth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="생년월일 : 1999년 5월 8일"
+                android:padding="3dp"/>
+            <TextView
+                android:id="@+id/textUserHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="주소 : 경기도 용인시 기흥구 ~"
+                android:padding="3dp"/>
+            <TextView
+                android:id="@+id/textUserGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="성별 : 여자"
+                android:padding="3dp"/>
+            <TextView
+                android:id="@+id/textUserChooseTage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="선택 태그 : 음식, 경제, 여가, 경제"
+                android:padding="3dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:drawableStart="@drawable/ic_import_contacts_black_24dp"
+            android:drawableLeft="@drawable/ic_import_contacts_black_24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorPrimary"
+            android:text=" 신문 신청하기"
+            android:padding="5dp"
+            android:id="@+id/newspaperButton"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:drawableStart="@drawable/ic_phone_iphone_black_24dp"
+            android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorPrimary"
+            android:text=" 앱 정보 확인하기"
+            android:padding="5dp"
+            android:id="@+id/appInfoButton"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:padding="5dp"
+            android:drawableStart="@drawable/ic_live_help_black_24dp"
+            android:drawableLeft="@drawable/ic_live_help_black_24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorPrimary"
+            android:text=" 궁금한 거 질문하기"
+            android:id="@+id/QnAButton"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

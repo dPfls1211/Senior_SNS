@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:text=" 앱 정보"
+        android:drawableStart="@drawable/ic_live_help_black_24dp"
+        android:drawableLeft="@drawable/ic_live_help_black_24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:text=" 개발자 : 문예린, 박성아"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text=" application version : 0.1 Ver"
+        android:drawableStart="@drawable/ic_phone_iphone_black_24dp"
+        android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:text=" 기획자 : 정윤관, 이예빈, 신은지, 문예린, 박성아 "
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"/>
+
+</LinearLayout>
